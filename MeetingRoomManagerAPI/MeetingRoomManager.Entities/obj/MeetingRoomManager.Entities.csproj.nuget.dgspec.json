@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {}
+    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
+        "projectUniqueName": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj",
         "projectName": "MeetingRoomManager.Entities",
-        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
-        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\obj\\",
+        "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj",
+        "packagesPath": "/home/wellington/.nuget/packages/",
+        "outputPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/wellington/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
