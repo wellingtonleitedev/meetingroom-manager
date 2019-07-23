@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeetingRoomManager.BLL.Infra\MeetingRoomManager.BLL.Infra.csproj" />
+    <ProjectReference Include="..\MeetingRoomManager.DAL\MeetingRoomManager.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

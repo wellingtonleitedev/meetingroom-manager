@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj",
+        "projectName": "MeetingRoomManager.DAL.Infra",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj",
+        "projectName": "MeetingRoomManager.DAL",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj"
+              },
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
+        "projectName": "MeetingRoomManager.Entities",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
