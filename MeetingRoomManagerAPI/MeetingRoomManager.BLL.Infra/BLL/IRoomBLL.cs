@@ -8,5 +8,7 @@ namespace MeetingRoomManager.BLL.Infra.BLL
     public interface IRoomBLL
     {
         List<Room> Get();
+
+        void Add(Room room);
     }
 }

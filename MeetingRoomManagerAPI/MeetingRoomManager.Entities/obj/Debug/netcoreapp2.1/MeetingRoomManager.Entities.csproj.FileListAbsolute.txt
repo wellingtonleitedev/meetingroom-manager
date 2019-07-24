@@ -16,3 +16,12 @@ C:/Users/azure/source/repos/meetingroom-manager/MeetingRoomManager/MeetingRoomMa
 /home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/obj/Debug/netcoreapp2.1/MeetingRoomManager.Entities.AssemblyInfo.cs
 /home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/obj/Debug/netcoreapp2.1/MeetingRoomManager.Entities.dll
 /home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/obj/Debug/netcoreapp2.1/MeetingRoomManager.Entities.pdb
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\bin\Debug\netcoreapp2.1\MeetingRoomManager.Entities.deps.json
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\bin\Debug\netcoreapp2.1\MeetingRoomManager.Entities.dll
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\bin\Debug\netcoreapp2.1\MeetingRoomManager.Entities.pdb
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.csprojAssemblyReference.cache
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.csproj.CoreCompileInputs.cache
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.AssemblyInfoInputs.cache
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.AssemblyInfo.cs
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.dll
+C:\Users\azure\source\repos\meetingroom-manager\MeetingRoomManagerAPI\MeetingRoomManager.Entities\obj\Debug\netcoreapp2.1\MeetingRoomManager.Entities.pdb

@@ -34,6 +34,16 @@ namespace MeetingRoomManager.Web
         {
             services.AddDbContext<IRoomsDbContext, RoomsDbContext>(
                 x => x.UseSqlServer(Configuration.GetConnectionString("MeetingRoomsDb")));
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("EnableCORS",
+                builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials().Build();
+                });
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddScoped<IUserBLL, UserBLL>();
@@ -57,6 +67,7 @@ namespace MeetingRoomManager.Web
                 app.UseHsts();
             }
 
+            app.UseCors("EnableCORS");
             app.UseHttpsRedirection();
             app.UseMvc();
         }

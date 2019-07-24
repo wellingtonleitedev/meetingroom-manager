@@ -16,6 +16,14 @@ export const Form = styled.form`
 export const Input = styled.input`
   background-color: #fff;
   border: 0;
+  margin-bottom: 10px;
   padding: 10px 20px;
   outline: 0;
 `;
+
+export const Button = styled.button`
+  border: 0;
+  padding: 10px;
+`
+
+

@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL/MeetingRoomManager.DAL.csproj": {}
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj": {}
   },
   "projects": {
-    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/MeetingRoomManager.DAL.Infra.csproj": {
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/MeetingRoomManager.DAL.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj",
         "projectName": "MeetingRoomManager.DAL.Infra",
-        "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/MeetingRoomManager.DAL.Infra.csproj",
-        "packagesPath": "/home/wellington/.nuget/packages/",
-        "outputPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/obj/",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/wellington/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj": {
-                "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj"
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj"
               }
             }
           }
@@ -58,35 +60,37 @@
         }
       }
     },
-    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL/MeetingRoomManager.DAL.csproj": {
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL/MeetingRoomManager.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj",
         "projectName": "MeetingRoomManager.DAL",
-        "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL/MeetingRoomManager.DAL.csproj",
-        "packagesPath": "/home/wellington/.nuget/packages/",
-        "outputPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL/obj/",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\MeetingRoomManager.DAL.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/wellington/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/MeetingRoomManager.DAL.Infra.csproj": {
-                "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.DAL.Infra/MeetingRoomManager.DAL.Infra.csproj"
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.DAL.Infra\\MeetingRoomManager.DAL.Infra.csproj"
               },
-              "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj": {
-                "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj"
+              "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
+                "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj"
               }
             }
           }
@@ -119,25 +123,27 @@
         }
       }
     },
-    "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj": {
+    "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
         "projectName": "MeetingRoomManager.Entities",
-        "projectPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/MeetingRoomManager.Entities.csproj",
-        "packagesPath": "/home/wellington/.nuget/packages/",
-        "outputPath": "/home/wellington/Documentos/meetingroom-manager/MeetingRoomManagerAPI/MeetingRoomManager.Entities/obj/",
+        "projectPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\MeetingRoomManager.Entities.csproj",
+        "packagesPath": "C:\\Users\\azure\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azure\\source\\repos\\meetingroom-manager\\MeetingRoomManagerAPI\\MeetingRoomManager.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/wellington/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
