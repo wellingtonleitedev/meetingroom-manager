@@ -15,9 +15,15 @@ namespace MeetingRoomManager.DAL.Repositories
         {
             _dbContext = dbContext;
         }
+
         public List<Room> Get()
         {
             return _dbContext.RoomQuery.ToList();
+        }
+
+        public void Add(Room room)
+        {
+            _dbContext.Add(room);
         }
     }
 }

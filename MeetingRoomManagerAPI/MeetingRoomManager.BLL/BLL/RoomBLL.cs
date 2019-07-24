@@ -23,5 +23,11 @@ namespace MeetingRoomManager.BLL.BLL
         {
             return _roomRepository.Get();
         }
+
+        public void Add(Room room)
+        {
+            _roomRepository.Add(room);
+            _dbContext.SaveChanges();
+        }
     }
 }

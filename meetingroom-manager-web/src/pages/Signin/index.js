@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Form, Input } from "./styles";
+import { Container, Form, Input, Button } from "./styles";
 import api from "../../services/api";
 
 export default class Signin extends Component {
@@ -10,6 +10,9 @@ export default class Signin extends Component {
 
   handleSignin = async e => {
     e.preventDefault();
+
+    console.log(e);
+
     const { history } = this.props;
     const { email, password } = this.state;
 
@@ -19,7 +22,8 @@ export default class Signin extends Component {
       });
     } else {
       try {
-        await api.get(`user/get?email=${email}&password=${password}`);
+        const {data} = await api.get(`user/get?email=${email}&password=${password}`);
+        console.log(data);
         history.push("dashboard");
       } catch (err) {
         this.setState({
@@ -34,7 +38,7 @@ export default class Signin extends Component {
 
     return (
       <Container>
-        <Form onSubmit={() => this.handleSignin()}>
+        <Form onSubmit={this.handleSignin}>
           <Input
             type="email"
             value={email}
@@ -47,6 +51,7 @@ export default class Signin extends Component {
             placeholder="Digite sua senha"
             onChange={e => this.setState({ password: e.target.value })}
           />
+          <Button type="submit">Enviar</Button>
         </Form>
       </Container>
     );

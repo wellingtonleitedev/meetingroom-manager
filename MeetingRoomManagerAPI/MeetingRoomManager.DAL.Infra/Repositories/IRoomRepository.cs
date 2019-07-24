@@ -8,5 +8,7 @@ namespace MeetingRoomManager.DAL.Infra.Repositories
     public interface IRoomRepository
     {
         List<Room> Get();
+
+        void Add(Room room);
     }
 }
