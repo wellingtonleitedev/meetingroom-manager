@@ -5,7 +5,8 @@ import api from "../../services/api";
 export default class Signin extends Component {
   state = {
     email: "",
-    password: ""
+    password: "",
+    error: null,
   };
 
   handleSignin = async e => {
@@ -34,11 +35,12 @@ export default class Signin extends Component {
   };
 
   render() {
-    const { email, password } = this.state;
+    const { email, password, error } = this.state;
 
     return (
       <Container>
         <Form onSubmit={this.handleSignin}>
+          {error && <h5>{error}</h5>}
           <Input
             type="email"
             value={email}

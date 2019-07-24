@@ -9,8 +9,19 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
+  background-color: #FFF;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
+  max-width: 300px;
+  padding: 20px;
+  width: 100%;
+
+  h5{
+    color: #f04141;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 `;
 
 export const Input = styled.input`
@@ -18,7 +29,6 @@ export const Input = styled.input`
   border: 0;
   margin-bottom: 10px;
   padding: 10px 20px;
-  outline: 0;
 `;
 
 export const Button = styled.button`
