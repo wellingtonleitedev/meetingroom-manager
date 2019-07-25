@@ -12,11 +12,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace MeetingRoomManager.Web
 {
@@ -46,6 +48,11 @@ namespace MeetingRoomManager.Web
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Meeting Rooms Manager RESTful API", Version = "v1" });
+            });
+
             services.AddScoped<IUserBLL, UserBLL>();
             services.AddScoped<IRoomBLL, RoomBLL>();
             services.AddScoped<IRoomUserBLL, RoomUserBLL>();
@@ -68,6 +75,17 @@ namespace MeetingRoomManager.Web
             }
 
             app.UseCors("EnableCORS");
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Meeting Room Manager API");
+            });
+
+            var option = new RewriteOptions();
+            option.AddRedirect("^$", "swagger");
+
+            app.UseRewriter(option);
             app.UseHttpsRedirection();
             app.UseMvc();
         }

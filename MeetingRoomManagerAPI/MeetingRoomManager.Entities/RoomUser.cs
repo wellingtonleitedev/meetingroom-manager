@@ -15,6 +15,8 @@ namespace MeetingRoomManager.Entities
         [StringLength(200)]
         public string Title { get; set; }
         [Required]
+        public int UserId { get; set; }
+        [Required]
         public int RoomId { get; set; }
         [Required]
         public DateTime InitialPeriod { get; set; }
