@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Container, Form, Input, Button } from "./styles";
 import { Link } from "react-router-dom";
 import api from "../../services/api";
-import { login } from "../../services/auth";
 
-export default class Signin extends Component {
+export default class Signup extends Component {
   state = {
+    name: "",
     email: "",
     password: "",
     error: null
@@ -14,36 +14,46 @@ export default class Signin extends Component {
   handleSignin = async e => {
     e.preventDefault();
 
-    const { history } = this.props;
-    const { email, password } = this.state;
+    console.log(e);
 
-    if (!email || !password) {
+    const { history } = this.props;
+    const { name, email, password } = this.state;
+
+    if (!name || !email || !password) {
       this.setState({
         error: "Você precisa preencher todos os campos!"
       });
     } else {
       try {
-        const { data } = await api.get(
-          `user/get?email=${email}&password=${password}`
-        );
+        const user = {
+          Name: name,
+          Email: email,
+          Password: password
+        };
 
-        login(data);
-        history.push("dashboard");
+        await api.get("user/add", user);
+        history.push("/");
       } catch (err) {
         this.setState({
-          error: "Não foi possível fazer login, verifique suas credenciais!"
+          error: "Não foi possível cadastrar sua conta!"
         });
       }
     }
   };
 
   render() {
-    const { email, password, error } = this.state;
+    const { name, email, password, error } = this.state;
 
     return (
       <Container>
         <Form onSubmit={this.handleSignin}>
           {error && <h5>{error}</h5>}
+          <Input
+            type="name"
+            value={name}
+            placeholder="Digite o seu nome completo"
+            onChange={e => this.setState({ name: e.target.value })}
+          />
           <Input
             type="email"
             value={email}
@@ -57,7 +67,7 @@ export default class Signin extends Component {
             onChange={e => this.setState({ password: e.target.value })}
           />
           <Button type="submit">Enviar</Button>
-          <Link to="/signup">Cadastrar uma conta</Link>
+          <Link to="/">Já tenho conta</Link>
         </Form>
       </Container>
     );
