@@ -4,35 +4,27 @@ export const Container = styled.div`
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    height: 100vh;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
 `
-export const Form = styled.form`
+export const Menu = styled.ul`
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    justify-content: center;
+    max-width: 400px;
+    padding: 40px 20px;
     width: 100%;
+`
 
-    .datepicker{
-        width: 145px;
+export const Item = styled.li`
+    border-bottom: 1px solid #ecd7d7;
+    margin-bottom: 20px;
+
+    :last-child{
+        margin-bottom: 0;
     }
-`
-
-export const TitleInput = styled.input`
-    margin-bottom: 10px;
-`
-
-export const Select = styled.select`
-    margin-bottom: 10px;
-`
-
-export const TimeSelect = styled.div`
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0;
-`
-
-export const Button = styled.button`
-  border: 0;
-  padding: 10px;
 `

@@ -5,15 +5,15 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
+  width: 100%;
 `;
-
 export const Form = styled.form`
   background-color: #fff;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 400px;
   padding: 20px;
   width: 100%;
 
@@ -23,20 +23,21 @@ export const Form = styled.form`
     text-align: center;
   }
 
-  a {
-    text-align: center;
+  .react-datepicker__input-container {
+    width: 100%;
   }
 `;
 
 export const Input = styled.input`
+  margin-bottom: 10px;
   background-color: #fff;
   border: 0;
   margin-bottom: 10px;
   padding: 10px 20px;
+  width: 100%;
 `;
 
 export const Button = styled.button`
   border: 0;
-  margin-bottom: 20px;
   padding: 10px;
 `;
