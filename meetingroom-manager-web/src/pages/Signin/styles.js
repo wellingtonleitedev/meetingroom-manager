@@ -25,6 +25,7 @@ export const Form = styled.form`
 
   a {
     text-align: center;
+    font-size: 12px;
   }
 `;
 

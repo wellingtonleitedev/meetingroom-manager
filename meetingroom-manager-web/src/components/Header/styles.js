@@ -17,6 +17,7 @@ export const Nav = styled.ul`
 
 export const Perfil = styled.ul`
   align-items: center;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

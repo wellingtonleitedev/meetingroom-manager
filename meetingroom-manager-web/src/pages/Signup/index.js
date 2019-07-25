@@ -14,8 +14,6 @@ export default class Signup extends Component {
   handleSignin = async e => {
     e.preventDefault();
 
-    console.log(e);
-
     const { history } = this.props;
     const { name, email, password } = this.state;
 
@@ -31,7 +29,7 @@ export default class Signup extends Component {
           Password: password
         };
 
-        await api.get("user/add", user);
+        await api.post("user/add", user);
         history.push("/");
       } catch (err) {
         this.setState({

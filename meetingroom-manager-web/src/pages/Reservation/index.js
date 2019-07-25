@@ -6,10 +6,12 @@ import "react-datepicker/dist/react-datepicker.css";
 // import ptBR from 'date-fns/locale/pt-BR';
 import api from "../../services/api";
 import { format } from "date-fns";
+import { getUser} from '../../services/auth'
 
 export default class Reservation extends Component {
   state = {
     data: [],
+    user: {},
     title: "",
     roomSelect: "",
     date: "",
@@ -20,11 +22,21 @@ export default class Reservation extends Component {
 
   componentDidMount() {
     this.fetchRooms();
+    this.setUser();
+  }
+
+  setUser = async () => {
+    const user = await getUser();
+
+    this.setState({
+      user
+    })
   }
 
   setBook = async e => {
     e.preventDefault();
-    const { title, roomSelect, date, initial, end } = this.state;
+    const { history } = this.props;
+    const { user, title, roomSelect, date, initial, end } = this.state;
 
     if (!title || !roomSelect || !date || !initial || !end) {
       this.setState({
@@ -37,6 +49,7 @@ export default class Reservation extends Component {
 
       const book = {
         Title: title,
+        UserId: user.id,
         RoomId: roomSelect,
         InitialPeriod: `${dateFormat} ${initialFormat}`,
         EndPeriod: `${dateFormat} ${endFormat}`
@@ -44,9 +57,21 @@ export default class Reservation extends Component {
 
       try {
         await api.post("roomuser/add", book);
+
+        this.setState({
+          title: '',
+          roomSelect: '',
+          date: '',
+          initial: '',
+          end: '',
+        });
+
+        history.push("Dashboard");
       } catch (err) {
         console.log(err);
         this.setState({
+          initial: '',
+          end: '',
           error: "Este horário já está reservado."
         });
       }
@@ -68,7 +93,8 @@ export default class Reservation extends Component {
   };
 
   render() {
-    const { data, title, roomSelect, date, initial, end, error } = this.state;
+    const { data, title, roomSelect, date, initial, end, error, user } = this.state;
+    console.log(user);
     return (
       <Fragment>
         <Header />

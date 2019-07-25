@@ -9,12 +9,9 @@ export default class NewRoom extends Component {
     error: null
   };
 
-  componentDidMount() {
-    // this.fetchRooms();
-  }
-
   addRoom = async e => {
     e.preventDefault();
+    const { history } = this.props;
     const { name } = this.state;
 
     if (!name) {
@@ -28,10 +25,17 @@ export default class NewRoom extends Component {
 
       try {
         await api.post("room/add", room);
+        
+        this.setState({
+          name: '',
+        });
+
+        history.push("Dashboard");
       } catch (err) {
         console.log(err);
         this.setState({
-          error: "Não foi possível adicionar esta sala!"
+          name: '',
+          error: "Não foi possível adicionar esta sala!",
         });
       }
     }
